@@ -1,0 +1,71 @@
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.1em 10em;
+  background-color: var(--negro);
+  box-shadow: 0px 2px 4px rgba(12, 247, 247, 0.8);
+  position: relative; /* Añade posición relativa para controlar la sombra */
+  z-index: 1; /* Asegura que esté por encima del contenido debajo */
+}
+
+.cabecera::after {
+  content: ''; /* Pseudo-elemento para la sombra */
+  position: absolute;
+  left: 0;
+  bottom: -4px; /* Ajusta la posición según necesites */
+  width: 100%;
+  height: 4px; /* Grosor de la sombra */
+  background: rgba(12, 247, 247, 0.8); /* Color de la sombra */
+}
+
+.cabecera a {
+  text-decoration: none;
+}
+
+.logoContainer {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.cabecera img {
+  align-self: start;
+}
+
+.cabecera span {
+  align-self: end;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  margin-left: 8px;
+  font-size: 1.5rem;
+}
+
+nav {
+  display: flex;
+}
+
+.CabeceraLink {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 8px 12px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.CabeceraLink:hover {
+  background-color: #e0e0e0;
+}
+
+.HomeLink {
+  color: blue;
+  background-color: black;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+}

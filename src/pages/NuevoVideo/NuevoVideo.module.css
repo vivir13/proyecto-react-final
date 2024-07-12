@@ -1,0 +1,68 @@
+/* NuevoVideo.module.css */
+
+.contenido {
+    padding: 20px;
+  }
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input {
+    width: calc(100% - 50px);
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #6bd1ff;
+    border-radius: 4px;
+    color: #fff;
+    margin-bottom: 20px;
+    outline: none;
+    background-color: transparent;
+    box-shadow: 0px 2px 4px rgba(12, 247, 247, 0.8);
+  }
+  
+  .select {
+    width: calc(100% - 50px);
+    padding: 1px;
+    font-size: 16px;
+    border: 2px solid #6bd1ff;
+    border-radius: 4px;
+    color: lightgray;
+    margin-bottom: 20px;
+    outline: none;
+    background-color: #03122f;
+    box-shadow: 0px 2px 4px rgba(12, 247, 247, 0.8);
+  }
+  
+  .boton {
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    font-size: 14px;
+  }
+  
+  .botonGuardar {
+    background-color: #191919;
+    color: #03122f;
+    border: 1px solid blue;
+    width: 100px; /* Ejemplo: Cambiar el ancho */
+    height: 40px; /* Ejemplo: Cambiar la altura */
+    font-size: 16px; /* Ejemplo: Cambiar el tamaño de fuente */
+    box-shadow: 0px 2px 4px rgba(12, 247, 247, 0.8);
+    margin: 0 20px;
+  }
+  
+  .botonLimpiar {
+    background-color: #03122f;
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.3);
+    border: 1px solid #fff;
+    width: 100px; /* Ejemplo: Cambiar el ancho */
+    height: 40px; /* Ejemplo: Cambiar la altura */
+    font-size: 16px; /* Ejemplo: Cambiar el tamaño de fuente */
+    margin: 0 20px;
+  }
+  
